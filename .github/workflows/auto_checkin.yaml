@@ -2,8 +2,8 @@ name: 鸣潮自动签到
 
 on:
   schedule:
-    # 每天早上 6 点北京时间（UTC+8）运行
-    - cron: '0 22 * * *'  # UTC 时间 22:00 对应北京时间 6:00
+    # 每天凌晨运行
+    - cron: '05 16 * * *'  # UTC 时间 16:05 对应北京时间 0:05
   workflow_dispatch:  # 允许手动触发
 
 jobs:
